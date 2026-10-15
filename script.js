@@ -6,100 +6,80 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Passou no enem?:" [
+        enunciado: "o que voce escolhe para o futuro?",
+        alternativas: [
             {
-                texto: "Predios totalmente integrados com plantas, hortas nas coberturas e ruas tomadas por ar",
-                afirmacao:[
-                    "afirmacao 1",Sim
-                    "afirmacao 2",Não
+                texto: "passou no enem?",
+                afirmacao: [
+                    "sim",
+                    "não",
                 ],
             },
             {
-                texto: "Arquitetura futurista minimalista com grandes areas de parques tecnologicos isolados",
+                texto: "vidas animal ou vidahumana?",
                 afirmacao: [
-                    "afirmacao 1",Biomedicina
-                    "afirmacao 2",Curso de adestradora
+                    "faculdade de estetica",
+                    "curso de adestramento",
                 ],
-            }           
+            }
+            
             
         ]
     },
     {
-        enunciado: "Quando se trata da nossa alimentacao nas proximas decadas, qual caminho voce escolheria?:" [
+        enunciado: "o que voce escolhe para o futuro?:" [
             {
-                texto:"Consumir majoritariamente alimentos organicos cultivados em hortas comunitarias locais",
+                texto:"quala estesialidade voce escolhe?",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2",
+                    "capilaridade",
+                    "pele",
                 ],
             },
             {
-                texto: "Adotar alimentos inovadores produzidos em laboratorio com alta eficiencia e zero desmatamento",
+                texto: "já trabalhar ou continuar o curso",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2",
+                    "trabalho",
+                    "curso",
                 ],
             }
 
         ]
     },
     {
-        enunciado: "Como voce prefere que a humanidade proteja as grandes florestas?:"[
+        enunciado: "o que voce escolhe para o futuro?:"[
             {
-                texto:"Criando reservas totalmente intocadas onde a presenca humana e proibida para garantir o descanso da natureza.",
+                texto:"espesializacao 2",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2",
+                    "espesializacao em cabelos para tratamento pos cancer",
+                    "espesializacao em peles atopicas",
                 ],
             },
             {
-                texto:"Abrindo espacos controlados para ecoturismo e imersao para que as pessoas valorizem a fauna e a flora de perto",
+                texto:"espesializacao 2",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2",
+                    "espesializacao em conportamento animal",
+                    "espesializacao em negocios",
                 ],
             }
             
         ]
     },
     {
-        enunciado: "Qual sera a sua maior despesa no futuro?:" [
+        enunciado: "o que voce escolhe para o futuro?:" [
             {
-                texto:"A manutencao do seu robo mordomo que vive julgando as suas escolhas de vida",
+                texto:"negocio",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2",
+                    "produzir produto para pratamento pos cancer para cabelo",
+                    "ajutar pessoas no tratamento de peles atopicas",
                 ],
             },
             {
-                texto:"O cafe gelado gourmet que custara o equivalente a meio salario minimo",
+                texto:"negocio",
                 afirmacao:[
-                    "afirmacao 1",
-                    "afirmacao 2",
+                    "escola de comportamento canino",
+                    "adestrar cachorros para varias areas",
                 ],
-            }
-            
-        ]
-    },
-    {
-        enunciado: " Qual ambiente sonoro voce escolheria para a sua rotina no futuro?",
-        alternativas: [
-            {
-                texto: "O som constante do vento nas arvores e o canto dos passaros em um bairro arborizado",
-                afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2",
-                ],
-            },
-            {
-                texto: "O silencio absoluto de uma casa inteligente integrada a um ecossistema interno sustentavel e climatizado",
-                afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2",
-                ],
-            }
-            
-            
+            }   
         ]
     },
 ];
